@@ -1,0 +1,65 @@
+body {
+  background-color: #518298;
+  font-family: sans-serif;
+}
+iframe {
+  position: fixed;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+#popupWerner {
+  width: 33%;
+  position: relative;
+  margin-top: 5%;
+  margin-left: -5%;
+  animation-name: werner;
+  animation-duration: 10s;
+  transform: rotate(15deg);
+  float: left;
+}
+
+@keyframes werner {
+  0% {
+    left: -400px;
+    ;
+  }
+  15% {
+    left: 20px;
+  }
+}
+
+#taleboble  {
+  position: relative;
+  width: 60%;
+  float: left;
+  margin-top: 5%;
+
+}
+
+.tekst {
+  position:absolute;
+  margin-top: 7%;
+  margin-left: 40%;
+}
+
+.tekst h2 {
+  margin-bottom: -5%;
+  font-size: 3em
+}
+
+.tekst p {
+  font-size: 2em
+}
+
+#knap {
+  color: white;
+  background-color: #518298;
+  border-radius: 25px;
+  border-color: #518298;
+  width: 70%;
+  height: 50px;
+  font-size: 2em;
+  margin-top: 5%;
+  margin-left: 15%;
+}
