@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
   <iframe allowtransparency="true" width="685" height="502" src="//scratch.mit.edu/projects/embed/266233694/?autostart=false" frameborder="0" allowfullscreen></iframe>
   <img id="popupWerner" src="images/WavesWErner.png" alt="Werner vinker" />
   <div class="boble">
@@ -21,8 +22,26 @@
       </p>
       <button id="knap" type="button" name="frisk">Jeg er frisk</button></div>
   </div>
-  <script src="js/main.js"></script>
 
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+$(document).ready(function(){
+
+  $('.boble').hide();
+
+  // wait five fec then show
+  setTimeout(
+    function()
+    {
+      //do something special
+      $('.boble').fadeIn(5000)
+    }, 3000);
+
+    });
+  </script>
 
 </body>
 
