@@ -2,9 +2,14 @@ body {
   background-color: #518298;
   font-family: sans-serif;
 }
+
+#logo {position: absolute;
+  float: left;
+}
+
 iframe {
   position: fixed;
-  margin-left: 35%;
+  margin-left: 25%;
   margin-top: 5%;
 }
 
@@ -12,6 +17,7 @@ iframe {
   width: 33%;
   position: relative;
   margin-left: -5%;
+  margin-top: 5%;
   animation-name: werner;
   animation-duration: 10s;
   transform: rotate(15deg);
@@ -28,16 +34,19 @@ iframe {
   }
 }
 
-#taleboble  {
+.boble {
+  margin-top: -10%;
+}
+
+#taleboble {
   position: relative;
   width: 60%;
   float: left;
   margin-top: 5%;
-
 }
 
 .tekst {
-  position:absolute;
+  position: absolute;
   margin-top: 7%;
   margin-left: 40%;
 }
@@ -63,11 +72,9 @@ iframe {
   margin-left: 15%;
 }
 
-footer #organ {
+#organ {
   position: relative;
   width: 100%;
-  margin-top: -8%;
-  bottom:0;
-
-
+  margin-top: -13%;
+  bottom: 0;
 }

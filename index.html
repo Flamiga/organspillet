@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <img id="logo" src="images/logo.png" alt="Organ spillet" />
   <iframe allowtransparency="true" width="685" height="502" src="//scratch.mit.edu/projects/embed/266233694/?autostart=false" frameborder="0" allowfullscreen></iframe>
   <img id="popupWerner" src="images/WavesWErner.svg" alt="Werner vinker" />
   <div class="boble">
@@ -21,34 +22,28 @@
       </p>
       <button id="knap" type="button" name="frisk">Jeg er frisk</button></div>
   </div>
-<footer>
-  <img id="organ" src="images/organer.png" alt="organer" />
+  <footer>
+    <img id="organ" src="images/organer.png" alt="organer" />
 
-</footer>
+  </footer>
 
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>
-$(document).ready(function(){     // indlæser siden før javascriptet afspilles
+    $(document).ready(function() { // indlæser siden før javascriptet afspilles
 
-  $('.boble').hide();             // gemmer boblen
+      $('.boble').hide(); // gemmer boblen
 
-  // wait five 0.2 sekunder then show
-  setTimeout(                     // funktionsnavn
-    function()
-    {
-      //do something special
-      $('.boble').fadeToggle("fast",200)
-    }, 2000);
+      // wait five 0.2 sekunder then show
+      setTimeout( // funktionsnavn
+        function() {
+          //do something special
+          $('.boble').fadeToggle("fast", 200)
+        }, 2000);
 
-    $("#knap").click(function(){
-         $(".boble").hide();
-     });
- });
-
-
+      $("#knap").click(function() {
+        $(".boble").hide();
+      });
+    });
   </script>
 
 </body>
