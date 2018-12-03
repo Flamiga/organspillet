@@ -28,19 +28,24 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
   <script>
-$(document).ready(function(){
+$(document).ready(function(){     // indlæser siden før javascriptet afspilles
 
-  $('.boble').hide();
+  $('.boble').hide();             // gemmer boblen
 
-  // wait five fec then show
-  setTimeout(
+  // wait five 0.2 sekunder then show
+  setTimeout(                     // funktionsnavn
     function()
     {
       //do something special
       $('.boble').fadeToggle("fast",200)
     }, 2000);
 
-    });
+    $("#knap").click(function(){
+         $(".boble").hide();
+     });
+ });
+
+
   </script>
 
 </body>
