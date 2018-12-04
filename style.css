@@ -1,18 +1,20 @@
+/*Benytter vores gennemgående farve som baggrund*/
 body {
   background-color: #518298;
   font-family: sans-serif;
 }
-
+/*styler logo*/
 #logo {position: absolute;
   float: left;
 }
 
+/*placere iframe i forhold til de andre elementer på siden*/
 iframe {
   position: fixed;
   margin-left: 25%;
   margin-top: 5%;
 }
-
+/*Styler Werner og sætter animation for Werner*/
 #popupWerner {
   width: 33%;
   position: relative;
@@ -33,6 +35,7 @@ iframe {
     left: 20px;
   }
 }
+/*Styler taleboble billedet*/
 
 #taleboble {
   position: relative;
@@ -41,6 +44,7 @@ iframe {
   margin-top: 5%;
 }
 
+/*Styler selve indholdet i taleboble så de får de rette forhold*/
 .tekst {
   position: absolute;
   margin-top: 7%;
@@ -68,6 +72,7 @@ iframe {
   margin-left: 15%;
 }
 
+/*Styler footer med et billede*/
 #organ {
   position: relative;
   width: 100%;
